@@ -26,8 +26,3 @@ code.addEventListener('mouseover', function() {
 code.addEventListener('mouseout', function() {
   hero.style.backgroundColor = "var(--bg1)";
 })
-
-//hover to see hobby description 
-hobbyPara.addEventListener('mouseover', function() {
-  hobbyPara.innerHTML = "i love dogs and coffee. in my free time you can find me reading a novel, dancing in the rain or watching conspiracy theory documentaries!";
-})
